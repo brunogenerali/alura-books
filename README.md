@@ -15,3 +15,5 @@
 - [Flex Box - Dicas para começar](https://cursos.alura.com.br/extra/alura-mais/css-flexbox-dicas-para-comecar-c301)
 - [Position CSS](https://www.alura.com.br/artigos/entenda-a-propriedade-position-css)
 - [Guia de Unidades no CSS](https://www.alura.com.br/artigos/guia-de-unidades-no-css)
+- [Swiper JS](https://swiperjs.com/)
+- 
