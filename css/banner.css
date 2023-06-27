@@ -7,7 +7,7 @@
 
 .banner__title {
     font-size: 1.125rem;
-    font-weight: 700;    
+    font-weight: 700;
 }
 
 .banner__txt {
@@ -21,7 +21,7 @@
     height: 2.75rem;
     border-radius: 24px;
     border: 1px solid var(--cor-de-fundo2);
-    background: var(--cor-azul-gradiente);    
+    background: var(--cor-azul-gradiente);
     color: var(--cor-de-fundo2);
 }
 
@@ -33,6 +33,20 @@
     font-weight: 400;
     background: url(../img/Pesquisa.svg) no-repeat;
     background-position: 1rem;
-    padding: 1rem;    
+    padding: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .banner__title {
+        font-size: 2.375rem;
+    }
+
+    .banner__search {
+        width: 50%;
+    }
+
+    .banner__search::placeholder {
+        background-position: 5rem;
+    }    
 }
 

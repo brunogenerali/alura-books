@@ -1,9 +1,10 @@
 .topicos {
     background: var(--cor-azul-gradiente);
-    padding-bottom: 1em;    
+    padding-bottom: 1em;
 }
+
 .topicos__titulo {
-    
+
     color: var(--cor-de-fundo2);
     font-weight: 300;
     text-align: center;
@@ -15,7 +16,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
+
     padding: 1em;
 }
 
@@ -30,4 +31,20 @@
     font-size: 0.875rem;
     font-weight: 700;
     text-decoration: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .topicos__titulo {
+        font-size: 1.5rem;
+    }  
+
+    .topicos__lista__item {
+        margin: .75em;        
+    }
+    
+    .topicos__lista__link {
+        font-size: 1.5rem;
+        margin: 2px;
+    }
+
 }

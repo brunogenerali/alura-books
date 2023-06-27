@@ -1,6 +1,5 @@
-
 .rodape {
-    padding: 1.5rem;    
+    padding: 1.5rem;
     background: var(--cor-azul-gradiente);
     background-color: var(--cor-de-fundo2);
     -webkit-background-clip: text;
@@ -8,9 +7,9 @@
 }
 
 
-.rodape__titulo {    
+.rodape__titulo {
     font-size: 1.125rem;
-    font-weight: 500;    
+    font-weight: 500;
 }
 
 .rodape__descricao {
@@ -29,7 +28,7 @@
 .rodape__email::placeholder {
     font-family: var(--fonte-texto);
     font-size: 1em;
-    font-weight: 400;    
+    font-weight: 400;
     background: url(../img/Email.svg) no-repeat;
     background-position: 1em;
     padding-left: 3em;
@@ -41,4 +40,69 @@
 
 hr {
     margin: 0;
+}
+
+.footer__container {
+    display: none;
+}
+
+h2.footer__container{
+    display: block;
+}
+
+@media screen and (min-width: 1024px) {
+    .rodape {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .rodape__titulo {
+        font-size: 1.5rem;        
+    }
+
+    .rodape__text {
+        width: 30%;
+        padding: 0 1em;
+    }
+
+    .rodade__alura {        
+        font-size: 1.5rem;
+        padding: 0;
+    }
+
+    .rodape__email {
+        width: 30%;
+    }
+
+    .footer__container {
+        width: 90vw;
+        display: flex;
+        justify-content: space-between;
+        padding: 3.5rem 2rem 2rem 2rem;
+    }
+
+    .lista__rodape__titulo {
+        color: #858585;
+    }
+
+    .lista__rodape__item{
+        padding: 1rem 0;
+        
+        display: flex;    
+        align-items: center;
+        
+    }
+
+    .lista__rodape__link {
+        text-decoration: none;
+        padding-left: 0.5rem;
+        color: #474646;
+        
+        
+    }
+
+
+
 }

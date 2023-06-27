@@ -16,4 +16,5 @@
 - [Position CSS](https://www.alura.com.br/artigos/entenda-a-propriedade-position-css)
 - [Guia de Unidades no CSS](https://www.alura.com.br/artigos/guia-de-unidades-no-css)
 - [Swiper JS](https://swiperjs.com/)
-- 
+- [Elementos Block Level](https://www.alura.com.br/artigos/html-tags-elementos-block-level?utm_source=gnarus&utm_medium=timeline)
+- [Flexibilidade com Media Queries](https://www.alura.com.br/artigos/flexibilidade-em-paginas-para-dispositivos-moveis-com-media-queries)
